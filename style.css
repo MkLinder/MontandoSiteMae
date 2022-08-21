@@ -1,38 +1,50 @@
 @charset "UTF-8";
 
+
 body {
     background-color: rgb(133, 131, 131);
 }
 
 nav {
-    background-color: #43c94ee1;
+    background-image: linear-gradient(to top, #43c94ee1, #3ab144bd); 
+    box-shadow: 3px 3px 4px #38ac41e1;
     border-radius: 0.6em;
+    
 
 }
 
 div {
     display: inline-block;
     padding: 1em;
-    height: 1.6em;
-    width: 14em; 
+    height: 1.2em;
+    width: 8em; 
     text-align: center; 
-    text-decoration: none;  
+    text-decoration: none; 
+    font-size: 1.6em;
+    font-weight: bold;
+    
     
 }
 
 a {
     text-decoration: none;
+    color: #104AFA;
     
 }
 
 #title {
     height: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #104AFA;
     text-align: center;
+    font-weight: normal;
+    
 }
 
 .mt {
     display: inline-block;
     margin-inline: 0.8em;
+    box-shadow: 3px 3px 4px#339c3bb4;
 }
 
 #m1 {
