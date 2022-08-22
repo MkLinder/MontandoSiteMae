@@ -84,17 +84,8 @@ main {
 }
 
 
-section {
-    text-align: center;
-    margin: auto;
-    display: inline-block;
-    min-width: 320px;
-    max-width: 1300px;
-    justify-content: space-between;    
-}
-
-
 article {
+    justify-content: space-between; 
     display: inline-table;
     background-color: var(--cor01);
     height: 260px;
@@ -119,13 +110,13 @@ article#m2 > img {
 }
 
 
-main > section > article > h2{
+main  > article > h2{
     font-size: 26px;
     color: var(--cor08);       
 }
 
 
-main > section > article > p{
+main > article > p{
     font-size: 20px;
     color: var(--cor08);
 }
