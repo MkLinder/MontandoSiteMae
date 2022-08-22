@@ -6,7 +6,7 @@ header {
     padding: 0em 2em;
     margin: 10px;
     box-shadow: 3px 3px 4px #2f9437e1;
-    border-radius: 0.6em;
+    border-radius: 0.6em 0.6em 4em 4em;
   
 }
 
@@ -20,7 +20,9 @@ header {
 }
 
 nav {
-    padding: 0.4em 0.6em;
+    padding: 0.4em 1em;
+    
+
 }
 
 header > nav > a {
@@ -34,7 +36,7 @@ header > nav > a {
 
 
 body {
-    background-color: rgb(133, 131, 131);
+    background-color: rgba(133, 131, 131, 0.856);
     margin: 0px;
     padding: 0.4em 0.8em;
 }
@@ -53,7 +55,7 @@ section {
     width: 22em;
     padding: 1em;
     margin: 2em 1em;
-    border-radius: 0.8em;
+    border-radius: 0.8em 6em 0.8em 0em;
     box-shadow: 3px 3px 4px #298030c4;
     
 }
@@ -87,13 +89,14 @@ footer{
     background-color: rgba(124, 120, 120, 0.925);
     color: rgb(221, 216, 216);
     text-align: center;
-    padding: 1px;
+    padding: 1em;
     margin: 0px;
     border-radius: 0.6em;
 }
 
 footer > p {
     font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
     
 }
 
