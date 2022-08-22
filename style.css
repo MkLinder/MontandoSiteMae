@@ -1,11 +1,23 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #43c94ee1;
+    --cor2: #329e3be1;
+    --cor3: #3ab144e0;
+    --cor4: #298030c4;
+
+    --cor6: #104AFA;
+    --cor8: rgb(227, 255, 225);
+    --cor9: rgb(221, 216, 216);
+    --cor10: rgba(124, 120, 120, 0.925);
+}
+
 
 header {
-    background-image: linear-gradient(to top, #43c94ee1, #3ab144e0); 
+    background-image: linear-gradient(to top, var(--cor1), var(--cor3)); 
     padding: 0em 2em;
     margin: 10px;
-    box-shadow: 3px 3px 4px #2f9437e1;
+    box-shadow: 3px 3px 4px var(--cor2);
     border-radius: 0.6em 0.6em 4em 4em;
   
 }
@@ -14,7 +26,7 @@ header {
     padding: 0.4em;
     margin: 0em;
     font-family: 'Times New Roman', Times, serif;
-    color: #104AFA;
+    color: var(--cor6);
     font-weight: normal;
     
 }
@@ -30,7 +42,7 @@ header > nav > a {
     font-size: 1.6em;
     font-weight: bold;
     text-decoration: none;
-    color: #104AFA;
+    color: var(--cor6);
     padding: 0.4em 2em;
 }
 
@@ -50,13 +62,13 @@ main {
 
 section {
     display: inline-block;
-    background-color: #43c94ee1;    
+    background-color: var(--cor1);    
     height: 22em;
     width: 22em;
     padding: 1em;
     margin: 2em 1em;
     border-radius: 0.8em 6em 0.8em 0em;
-    box-shadow: 3px 3px 4px #298030c4;
+    box-shadow: 3px 3px 4px var(--cor4);
     
 }
 
@@ -73,21 +85,21 @@ article {
 
 main > section > article > h2{
     font-size: 26px;
-    color: white;
+    color: var(--cor8);
        
 }
 
 main > section > article > p{
     font-size: 20px;
-    color: white;
+    color: var(--cor8);
 }
 
 
 
 
 footer{
-    background-color: rgba(124, 120, 120, 0.925);
-    color: rgb(221, 216, 216);
+    background-color: var(--cor10);
+    color: var(--cor9);
     text-align: center;
     padding: 1em;
     margin: 0px;
