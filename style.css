@@ -7,13 +7,12 @@
     --cor03: #3ab144e0;
     --cor04: #298030c4;
 
-    --cor06: #104AFA;
+    --cor06: rgba(238, 238, 103, 0.89);
     --cor08: rgb(227, 255, 225);
     --cor09: rgb(221, 216, 216);
     --cor10: rgba(124, 120, 120, 0.925);
     --cor11: rgba(133, 131, 131, 0.856);
     --cor12: rgba(12, 12, 12, 0.486);
-
 
     --font-pad: 'Times New Roman', Times, serif;
     --font-pad2: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,9 +31,10 @@ header {
     padding: 0em 10px;
     margin: 0px 20px;
     min-width: 320px;
-    max-width: 1400px;
+    max-width: 1300px;
     box-shadow: 0px 0px 10px var(--cor12);
-    border-radius: 0.6em 0.6em 6em 6em;  
+    border-radius: 0em 0em 6em 6em; 
+    text-align: center; 
 }
 
 
@@ -58,21 +58,27 @@ header > nav > a {
     font-size: 1.4em;
     font-weight: bold;
     text-decoration: none;
-    color: var(--cor06);
-    margin:  0.4em 2.6em;
+    color: var(--cor08);    
+    padding: 6px 20px;
+    
+}
+
+header > nav > a:hover {
+    background-color: var(--cor02);
+    border-radius: 5px;
+    box-shadow: 0px -1px 4px var(--cor12) ;
 }
 
 
 body {
     background-color: var(--cor11);
-    margin: auto;
- 
+    margin: auto; 
 }
 
 
 main {
     margin: auto;
-    padding: 10px;
+    padding: 10px 55px;
     min-width: 320px;
     max-width: 1300px;
 }
@@ -91,8 +97,8 @@ section {
 article {
     display: inline-table;
     background-color: var(--cor01);
-    height: 350px;
-    width: 400px;  
+    height: 260px;
+    width: 380px;  
     padding: 10px;  
     margin:  10px 5px;
     border-radius: 0.8em 6em 0.8em 0em;
@@ -101,9 +107,15 @@ article {
     text-align: center; 
     text-decoration: none; 
     min-width: 320px;
-    max-width: 1400px;
-    
-              
+    max-width: 1300px;              
+}
+
+
+article#m2 > img {
+    width: 82%;
+    height: 80%;
+    border-radius: 5px 40px 5px 0px;
+    box-shadow: 2px 2px 7px var(--cor12)
 }
 
 
@@ -119,14 +131,24 @@ main > section > article > p{
 }
 
 
+main#sec {
+    background-color: rgba(167, 164, 164, 0.856);
+    height: 500px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0px 0px 4px var(--cor12);
+    min-width: 320px;
+    max-width: 1300px;
+    text-align: center;
+}
+
 
 footer{
     background-color: var(--cor10);
     color: var(--cor09);
     text-align: center;
     padding: 1em;
-    margin: 0px;
-    border-radius: 0.6em;
+    margin-top: 10px;
     min-width: 320px;
     max-width: 1400px;
 }
